@@ -16,7 +16,7 @@ def format(num, form):
     elif form == "0,0m":
         build = ",000000"
         print(num,build)
-    elif form == "0m":
+    elif form == "m":
         build = "000 000"
         print(num,build)
     elif form == "+0":
@@ -119,6 +119,24 @@ def format(num, form):
         elif num > 1024:
             val = num / 1024
             build = "TB"
+            print(val,build)
+    elif form == "0k":
+        if num == 1000:
+            val = num / 1000
+            build = "k"
+            print(int(val),build)
+        elif num > 1000:
+            val =  num / 1000
+            build = "k"
+            print(val,build)
+    elif form == "0m":
+        if num == 1000000:
+            val = num / 1000000
+            build = "m"
+            print(int(val),build)
+        elif num > 1000000:
+            val =  num / 1000000
+            build = "m"
             print(val,build)
 def add(num, set):
     print(num + set)

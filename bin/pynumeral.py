@@ -24,8 +24,11 @@ def format(num, form):
         print(build,num)
     elif form == "<0.0>":
         print(math.ceil(num))
-    elif form == ".00":
-        print(float(num))
+    elif form == "!0.00":
+        basic = float(num)
+        intnum = int(num)
+        val = basic - intnum
+        print(val)
     elif form == "1":
         on = "st"
         print(num,on)
@@ -82,6 +85,41 @@ def format(num, form):
         print(reversed(num))
     elif form == "asc":
         print(ascii(num))
+    elif form == "kb":
+        if num == 1024:
+            val = num / 1024
+            build = "KB"
+        elif num > 1024:
+            val = num / 1024
+            build = "KB"
+            print(val,build)
+    elif form == "mb":
+        if num == 1048576:
+            val = num / 1048576
+            build = "MB"
+            print(val,build)
+        elif num > 1024:
+            val = num / 1024
+            build = "MB"
+            print(val,build)
+    elif form == "gb":
+        if num == 1024:
+            val = num / 1024
+            build = "GB"
+            print(val,build)
+        elif num > 1024:
+            val = num / 1024
+            build = "GB"
+            print(val,build)
+    elif form == "tb":
+        if num == 1024:
+            val = num / 1024
+            build = "TB"
+            print(val,build)
+        elif num > 1024:
+            val = num / 1024
+            build = "TB"
+            print(val,build)
 def add(num, set):
     print(num + set)
 def sub(num, set):

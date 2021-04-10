@@ -4,7 +4,7 @@ Pynumeral it is library python. You can format numbers with this library and per
 ## Support
 This library mainly supports python 3.
 ## Original file
-Original file (in github): jahongir2007/pynumeral/bin/pynumeral.py. Total size 3.13 KB
+Original file (in github): jahongir2007/pynumeral/bin/pynumeral.py. Total size 3.61 KB
 ## Run this library
 1. Install .zip file in github
 2. Copy file: pynumeral-main/bin/pynumeral.py

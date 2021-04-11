@@ -190,7 +190,6 @@ num.format(
     <td>"0%"</td>
     <td>100 %</td>
   </tr>
-  
   <tr>
     <td>0.25</td>
     <td>"0%"</td>

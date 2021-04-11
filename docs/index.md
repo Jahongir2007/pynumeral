@@ -80,4 +80,9 @@ num.format(
     <td>"+0"</td>
     <td>+100</td>
   </tr>
+      <tr>
+    <td>100.8</td>
+    <td>"&lt;0.0&gt;"</td>
+    <td>101</td>
+  </tr>
 </table>

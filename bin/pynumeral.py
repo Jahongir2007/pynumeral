@@ -97,13 +97,13 @@ def format(num, form):
         if num <= 1024:
             val = num / 1024
             print(val,"KB")
-        elif num >= 1025:
+        elif num <= 1024:
             val = num / 1048576
             print(val,"MB")
-        elif num >= 1048577:
+        elif num <= 1048577:
             val = num / 1073741824
             print(val,"GB")
-        elif num >= 1073741825:
+        elif num <= 1073741825:
             val = num / 1099511627776
             print(val,"TB")
     elif form == "hsm":

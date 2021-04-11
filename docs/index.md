@@ -336,3 +336,8 @@ num.clone(
   '''
 )
 ```
+### Value
+The `value()` function stores the value
+```python
+num.val(100)
+```

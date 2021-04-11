@@ -121,7 +121,7 @@ def format(num, form):
         hours = "00"
         if num < 59:
             seconds = num
-            print(hours,":",math.ceil(seconds),":",seconds)
+            print(hours,":",minutes,":",seconds)
         elif num > 59:
             minutes = num
             val = minutes / 60

@@ -276,3 +276,40 @@ num.add(
   # value: 13
 )
 ```
+### Actions on numbers
+In the PyNumeral library, numbers can be added, subtracted, multiplied, and divided.
+```python
+# add numbers
+num.add(
+  num = 14, 
+  set = 12
+  # value: 26
+)
+```
+
+```python
+# subtract numbers
+num.sub(
+  num = 14, 
+  set = 12
+  # value: 2
+)
+```
+
+```python
+# multiply numbers
+num.mul(
+  num = 14, 
+  set = 12
+  # value: 168
+)
+```
+
+```python
+# multiply numbers
+num.div(
+  num = 14, 
+  set = 12
+  # value: 1.166666666666667
+)
+```

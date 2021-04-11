@@ -124,9 +124,9 @@ num.format(
     <td><b>Value</b></td>
   </tr>
   <tr>
-    <td>2048</td>
+    <td>1048577</td>
     <td>"0b"</td>
-    <td>2.0 KB</td>
+    <td>0.0009765634313225746 GB</td>
   </tr>
     <tr>
     <td>1024</td>

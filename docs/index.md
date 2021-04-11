@@ -33,6 +33,7 @@ num.format(
 
 )
 ```
+
 <table>
   <tr>
     <td><b>Number</b></td>
@@ -57,6 +58,26 @@ num.format(
       <tr>
     <td>2</td>
     <td>"0,0t"</td>
-    <td>2,000</td>
+    <td>2 ,000</td>
+  </tr>
+      <tr>
+    <td>3</td>
+    <td>"0t"</td>
+    <td>3 000</td>
+  </tr>
+      <tr>
+    <td>15</td>
+    <td>"0,0m"</td>
+    <td>15 ,000000</td>
+  </tr>
+      <tr>
+    <td>100</td>
+    <td>"m"</td>
+    <td>100 000 000</td>
+  </tr>
+      <tr>
+    <td>100</td>
+    <td>"+0"</td>
+    <td>+100</td>
   </tr>
 </table>

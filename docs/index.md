@@ -116,7 +116,9 @@ num.format(
     <td>even</td>
   </tr>
 </table>
+
 #### Bytes
+
 <table>
   <tr>
     <td><b>Number</b></td>

@@ -7,4 +7,12 @@ In python file
 import pynumeral
 ```
 ### `format()` function
-you can format any number from the `format()` function to percentages, integers, rounded numbers, currencies, odd-evens, and more.
+you can format any number from the `format()` function to percentages, integers, rounded numbers, currencies, odd-evens, and more. Syntax:
+```python
+num.format(
+
+  num = 10.5,
+  form = "<0.0>"
+
+)
+```

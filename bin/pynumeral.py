@@ -194,3 +194,7 @@ def unform(num,type):
     elif type == "0%":
         val = num / 100
         print(val)
+def cordinate(num):
+    prev = num - 1
+    nt = num + 1
+    print(prev,num,nt) 

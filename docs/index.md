@@ -353,3 +353,16 @@ num.zeroform(
   '''
 )
 ```
+### How to create language
+Create your number formats:
+```python
+num.makelang(
+    lang="uzb",
+    abb_k="ming",
+    abb_m="million",
+    abb_b="milliard",
+    abb_t="trillion",
+    curr="so'm",
+    num=1000
+)
+```

@@ -136,16 +136,16 @@ def format(num, form):
     elif form == "0a":
         if num <= 1000000:
             val = num / 1000
-            print(val,abb_k)
+            print(val,"k")
         elif num <= 1000000000:
             val = num / 1000000
-            print(num,abb_m)
+            print(num,"m")
         elif num <= 1000000000000:
             val = num / 1000000000 
-            print(val,abb_b)
+            print(val,"b")
         elif num <= 1000000000000000:
             val = num / 1000000000000
-            print(val,abb_t)
+            print(val,"t")
     elif form == "0%2":
         if num % 2 == 0:
             print("even")

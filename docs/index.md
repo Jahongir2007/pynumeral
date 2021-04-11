@@ -21,7 +21,7 @@ num.format( # use format function
 ### Importing PyNumeral
 In python file
 ```python
-import pynumeral
+import pynumeral # importing pynumeral 
 ```
 ### `format()` function
 you can format any number from the `format()` function to percentages, integers, rounded numbers, currencies, odd-evens, and more. Syntax:
@@ -43,5 +43,20 @@ num.format(
     <td>100</td>
     <td>"0.0"</td>
     <td>100.0</td>
+  </tr>
+      <tr>
+    <td>-100</td>
+    <td>"||"</td>
+    <td>100</td>
+  </tr>
+      <tr>
+    <td>100.3</td>
+    <td>"0.!0"</td>
+    <td>100</td>
+  </tr>
+      <tr>
+    <td>2</td>
+    <td>"0,0t"</td>
+    <td>2,000</td>
   </tr>
 </table>

@@ -33,8 +33,15 @@ num.format(
 
 )
 ```
-|Number|Type   | Value  |
-| -----| ----  | -------
-| 1000 | "0.0" | 1000.0 | 
-| -100 | "\\"(button + shift) | 100 |
-| 100.3 | "0.!0" | 100 | 
+<table>
+  <tr>
+    <td><b>Number</b></td>
+    <td><b>Type</b></td>
+    <td><b>Value</b></td>
+  </tr>
+    <tr>
+    <td>100</td>
+    <td>"0.0"</td>
+    <td>100.0</td>
+  </tr>
+</table>

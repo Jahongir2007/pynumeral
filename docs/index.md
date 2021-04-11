@@ -216,3 +216,52 @@ num.format(
     <td>00:2.0:49</td>
   </tr>
 </table>
+
+### Unformatting
+Got a formatted string? Use the unformat function to make it useful again.
+```python
+num.unform(
+  
+  num = 20,
+  type = "0%"
+  
+)
+```
+
+<table>
+  <tr>
+    <td><b>Value</b></td>
+    <td><b>Type</b></td>
+    <td><b>Number</b></td>
+  </tr>
+  <tr>
+    <td>20.2</td>
+    <td>"0.0"</td>
+    <td>20</td>
+  </tr>
+    <tr>
+    <td>20</td>
+    <td>"0.!0"</td>
+    <td>20.0</td>
+  </tr>
+    <tr>
+    <td>35</td>
+    <td>"||"</td>
+    <td>35</td>
+  </tr>
+    <tr>
+    <td>20</td>
+    <td>"0k"</td>
+    <td>20000</td>
+  </tr>
+    <tr>
+    <td>15</td>
+    <td>"0m"</td>
+    <td>15000000</td>
+  </tr>
+    <tr>
+    <td>20</td>
+    <td>"0%"</td>
+    <td>0.2</td>
+  </tr>
+</table>

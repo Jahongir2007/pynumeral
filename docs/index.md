@@ -95,4 +95,24 @@ num.format(
     <td>"1", "2", "3", "on"</td>
     <td>51 st, 52 nd, 53 rd, 100 th</td>
   </tr>
+      <tr>
+    <td>1200</td>
+    <td>"0a"</td>
+    <td>1.2k</td>
+  </tr>
+    <tr>
+    <td>100</td>
+    <td>"(0.000)"</td>
+    <td>( 100, 000)</td>
+  </tr>
+      <tr>
+    <td>100</td>
+    <td>"0.0"</td>
+    <td>100.0</td>
+  </tr>
+      <tr>
+    <td>100</td>
+    <td>"0%2"</td>
+    <td>even</td>
+  </tr>
 </table>

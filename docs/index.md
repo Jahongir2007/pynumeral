@@ -306,10 +306,19 @@ num.mul(
 ```
 
 ```python
-# multiply numbers
+# division numbers
 num.div(
   num = 14, 
   set = 12
   # value: 1.166666666666667
+)
+```
+### Difference
+Find the difference between any two numbers in pynumeral.
+```python
+num.dif(
+  num = 900,
+  set = 100
+  # value: difference 800
 )
 ```

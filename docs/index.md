@@ -223,6 +223,7 @@ num.unform(
   
   num = 20,
   type = "0%"
+  # value: 0.2
   
 )
 ```
@@ -264,3 +265,14 @@ num.unform(
     <td>0.2</td>
   </tr>
 </table>
+
+### Manipulate
+In PyNumeral, manipulation is generated mainly in variables.
+```python
+a = 12 # variable for manipulate
+num.add(
+  num = a, # get value
+  set = 1
+  # value: 13
+)
+```

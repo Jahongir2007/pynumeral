@@ -341,3 +341,15 @@ The `value()` function stores the value
 ```python
 num.val(100)
 ```
+### Encryption of zeros
+In PyNumeral, the encryption of zeros is done using the `zeroform()` function.
+```python
+num.zeroform(
+  code = "Z/N",
+  num = "0.0"
+  '''
+  Output:
+  number: Z/N
+  '''
+)
+```

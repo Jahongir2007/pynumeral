@@ -90,4 +90,9 @@ num.format(
     <td>"!0.0"</td>
     <td>0.09999999999999432</td>
   </tr>
+      <tr>
+    <td>51, 52</td>
+    <td>"1", "2", "3", "on"</td>
+    <td>51 st, 52 nd, 53 rd, 100 th</td>
+  </tr>
 </table>

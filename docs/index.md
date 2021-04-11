@@ -364,5 +364,10 @@ num.makelang(
     abb_t="trillion",
     curr="so'm",
     num=1000
+    '''
+    Output:
+    1.0 ming
+    so'm 1000
+    '''
 )
 ```

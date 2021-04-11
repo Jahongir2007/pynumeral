@@ -1,6 +1,6 @@
 # PyNumeral v1.0
 PyNumeral python library for formatting and manipulating numbers
-## Create a simple program in pynumeral
+## Create a simple program in pynumeral (construction)
 Creating a simple program with the PyNumeral library is explained below with code and comments:
 ```python
 import pynumeral # importing pynumeral
@@ -33,3 +33,6 @@ num.format(
 
 )
 ```
+|Number|Type   | Value  |
+| -----| ----  | -------
+| 1000 | "0.0" | 1000.0 | 

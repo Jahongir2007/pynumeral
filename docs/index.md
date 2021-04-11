@@ -122,7 +122,7 @@ num.format(
 <table>
   <tr>
     <td><b>Number</b></td>
-    <td><b>Types</b></td>
+    <td><b>Type</b></td>
     <td><b>Value</b></td>
   </tr>
   <tr>
@@ -174,5 +174,26 @@ num.format(
     <td>100</td>
     <td>"$0m"</td>
     <td>$ 200 m</td>
+  </tr>
+</table>
+
+#### Percentages
+
+<table>
+  <tr>
+    <td><b>Number</b></td>
+    <td><b>Type</b></td>
+    <td><b>Value</b></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>"0%"</td>
+    <td>100 %</td>
+  </tr>
+  
+  <tr>
+    <td>0.25</td>
+    <td>"0%"</td>
+    <td>25 %</td>
   </tr>
 </table>

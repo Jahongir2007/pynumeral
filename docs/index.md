@@ -146,3 +146,33 @@ num.format(
     <td>9.536757352179848e-05 TB</td>
   </tr>
 </table>
+
+#### Currency
+
+<table>
+  <tr>
+    <td><b>Number</b></td>
+    <td><b>Type</b></td>
+    <td><b>Value</b></td>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>"$0.0"</td>
+    <td>100.0</td>
+  </tr>
+    <tr>
+    <td>100</td>
+    <td>"$0.0"</td>
+    <td>$ 100.0</td>
+  </tr>
+      <tr>
+    <td>100</td>
+    <td>"$0k"</td>
+    <td>$ 100 k</td>
+  </tr>
+        <tr>
+    <td>100</td>
+    <td>"$0m"</td>
+    <td>$ 200 m</td>
+  </tr>
+</table>

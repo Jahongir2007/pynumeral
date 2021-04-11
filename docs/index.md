@@ -116,3 +116,26 @@ num.format(
     <td>even</td>
   </tr>
 </table>
+#### Bytes
+<table>
+  <tr>
+    <td><b>Number</b></td>
+    <td><b>Types</b></td>
+    <td><b>Value</b></td>
+  </tr>
+  <tr>
+    <td>2048</td>
+    <td>"0b"</td>
+    <td>2.0 KB</td>
+  </tr>
+    <tr>
+    <td>1024</td>
+    <td>"0b"</td>
+    <td>1.0 KB</td>
+  </tr>
+      <tr>
+    <td>234000</td>
+    <td>"0b"</td>
+    <td>0.2231597900390625 MB</td>
+  </tr>
+</table>

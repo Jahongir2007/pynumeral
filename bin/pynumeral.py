@@ -69,7 +69,6 @@ def format(num, form):
     elif form == "$0m":
         build = "m"
         print(int(num),build)
-    elif form == "0a":
         if num >= 1000:
             val = num / 1000
             build = "k"

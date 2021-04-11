@@ -322,3 +322,17 @@ num.dif(
   # value: difference 800
 )
 ```
+### Clone
+A PyNumeral clone is a manipulation of this variable and consists of a clone name and contains a value.
+```python
+a = 12
+num.clone(
+  name = "myclone",
+  set = a
+  '''
+  Output:
+  Name clone: myclone
+  Value clone: 12
+  '''
+)
+```

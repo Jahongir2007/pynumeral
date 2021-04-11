@@ -1,3 +1,10 @@
+'''
+    PyNumeral
+    Author: Jahongir Sobirov
+    Version : 1.0.0
+    License: MIT
+'''
+
 import math
 
 def format(num, form):

@@ -197,3 +197,22 @@ num.format(
     <td>25 %</td>
   </tr>
 </table>
+
+#### Time
+
+<table>
+  <tr>
+    <td><b>Number</b></td>
+    <td><b>Type</b></td>
+    <td><b>Value</b></td>
+  </tr>
+  <tr>
+    <td>49</td>
+    <td>"00:00:00"</td>
+    <td>00:00:49</td>
+  </tr>
+      <td>120</td>
+    <td>"00:00:00"</td>
+    <td>00:2.0:49</td>
+  </tr>
+</table>

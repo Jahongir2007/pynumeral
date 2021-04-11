@@ -97,7 +97,7 @@ def format(num, form):
         if num <= 1024:
             val = num / 1024
             print(val,"KB")
-        elif num <= 1024:
+        elif num <= 1048576:
             val = num / 1048576
             print(val,"MB")
         elif num <= 1048577:

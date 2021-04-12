@@ -1,4 +1,4 @@
-![logo](https://user-images.githubusercontent.com/69193276/114314535-910afe00-9b14-11eb-81f5-d58a8c065a14.png)
+
 # PyNumeral v1.0
 PyNumeral python library for formatting and manipulating numbers
 ## Create a simple program in pynumeral (construction)
@@ -371,4 +371,10 @@ num.makelang(
     so'm 1000
     '''
 )
+```
+### `cordinate()` function
+Determine between which numbers the desired number is located
+```python
+num.cordinate(12)
+# value: 11 12 13
 ```

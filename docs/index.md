@@ -1,5 +1,5 @@
 
-# PyNumeral v1.0
+# PyNumeral v1.0.1
 PyNumeral python library for formatting and manipulating numbers
 ## Create a simple program in pynumeral (construction)
 Creating a simple program with the PyNumeral library is explained below with code and comments:
@@ -48,7 +48,7 @@ num.format(
   </tr>
       <tr>
     <td>-100</td>
-    <td>"||"</td>
+    <td>"|0|"</td>
     <td>100</td>
   </tr>
       <tr>
@@ -196,6 +196,11 @@ num.format(
     <td>"0%"</td>
     <td>25 %</td>
   </tr>
+    <tr>
+    <td>-0.25</td>
+    <td>"0%"</td>
+    <td>-25 %</td>
+  </tr>
 </table>
 
 #### Time
@@ -209,11 +214,11 @@ num.format(
   <tr>
     <td>49</td>
     <td>"00:00:00"</td>
-    <td>00:00:49</td>
+    <td>00:49</td>
   </tr>
       <td>120</td>
     <td>"00:00:00"</td>
-    <td>00:2.0:49</td>
+    <td>2:00</td>
   </tr>
 </table>
 

@@ -9,17 +9,19 @@
   <td>
    
    ```python
-   num.form():
+   num.format(
     num = -12,
     form = "||"
+   )
    ```
    </td>
     <td>
    
    ```python
-   num.form():
+   num.form(
     num = -12,
     form = "|0|"
+   )
    ```
    </td>
    </tr>
@@ -30,9 +32,10 @@
     <td>
    
    ```python
-   num.form():
+   num.format(
     num = -0.12,
     form = "0%"
+   )
    ```
    </td>
  </tr>

@@ -1,4 +1,30 @@
-# PyNumeral v1.0
+# PyNumeral v1.0.1
+## News in PyNumeral v1.0.1
+<table>
+ <tr>
+  <td><b>PyNumeral v1.0.0</b></td>
+  <td><b>PyNumeral v1.0.1</b></td>
+ </tr>
+  <tr>
+  <td>
+   
+   ```python
+   num.form():
+    num = -12,
+    form = "||"
+   ```
+   </td>
+    <td>
+   
+   ```python
+   num.form():
+    num = -12,
+    form = "|0|"
+   ```
+   </td>
+ </tr>
+</table>
+  
 ## What is PyNumeral? 
 Pynumeral it is library python. You can format numbers with this library and perform operations on them. PyNumeral syntax very easy.
 ## Support

@@ -22,6 +22,17 @@
     form = "|0|"
    ```
    </td>
+     <td>
+    none
+   </td>
+    <td>
+   
+   ```python
+   num.form():
+    num = -12,
+    form = "|0|"
+   ```
+   </td>
  </tr>
 </table>
   

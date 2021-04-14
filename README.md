@@ -18,7 +18,7 @@
     <td>
    
    ```python
-   num.form(
+   num.format(
     num = -12,
     form = "|0|"
    )

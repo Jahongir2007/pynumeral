@@ -32,5 +32,5 @@ Original file (in github): jahongir2007/pynumeral/bin/pynumeral.py. Total size 4
   #110
   
  )
- 
 ```
+### All (docs)[https://jahongir2007.github.io/pynumeral/]

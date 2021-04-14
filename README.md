@@ -22,6 +22,8 @@
     form = "|0|"
    ```
    </td>
+   </tr>
+ <tr>
      <td>
     none
    </td>
@@ -29,8 +31,8 @@
    
    ```python
    num.form():
-    num = -12,
-    form = "|0|"
+    num = -0.12,
+    form = "0%"
    ```
    </td>
  </tr>

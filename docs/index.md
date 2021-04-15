@@ -1,4 +1,4 @@
-# PyNumeral v1.0.2
+# PyNumeral v1.0.3
 PyNumeral python library for formatting and manipulating numbers
 ## Create a simple program in pynumeral (construction)
 Creating a simple program with the PyNumeral library is explained below with code and comments:
@@ -280,6 +280,13 @@ num.unform(
     <td>0.2</td>
   </tr>
 </table>
+
+#### Number types
+numbers accepted in mathematics. Syntax:
+```python
+num.number("pi")
+# 3.141592653589793
+```
 
 ### Manipulate
 In PyNumeral, manipulation is generated mainly in variables.

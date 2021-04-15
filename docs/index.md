@@ -20,6 +20,9 @@ num.format( # use format function
 ```
 ## Docs
 ### Run this library
+
+<iframe src="https://www.youtube.com/watch?v=apUGhUA9tcg"></iframe>
+
 1. Install .zip file in github
 2. Copy file: pynumeral-main/bin/pynumeral.py
 3. Create new folder and paste pynumeral.py

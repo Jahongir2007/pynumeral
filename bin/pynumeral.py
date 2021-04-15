@@ -1,7 +1,7 @@
 '''
     PyNumeral
     Author: Jahongir Sobirov
-    Version : 1.0.0
+    Version : 1.0.2
     License: MIT
 '''
 

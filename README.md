@@ -1,4 +1,46 @@
-# PyNumeral v1.0
+# PyNumeral v1.0.2
+## News in PyNumeral v1.0.1
+<table>
+ <tr>
+  <td><b>PyNumeral v1.0.1</b></td>
+  <td><b>PyNumeral v1.0.2</b></td>
+ </tr>
+  <tr>
+  <td>
+   
+   ```python
+   num.unform(
+    num = -12,
+    type = "||"
+   )
+   ```
+   </td>
+    <td>
+   
+   ```python
+   num.unform(
+    num = -12,
+    type = "|0|"
+   )
+   ```
+   </td>
+   </tr>
+ <tr>
+     <td>
+    none
+   </td>
+    <td>
+   
+   ```python
+   num.format(
+    num = 3600, # in hours
+    form = "00:00:00"
+   )
+   ```
+   </td>
+ </tr>
+</table>
+
 ## What is PyNumeral? 
 Pynumeral it is library python. You can format numbers with this library and perform operations on them. PyNumeral syntax very easy.
 ## Support

@@ -363,6 +363,12 @@ num.div(
   # value: 1.166666666666667
 )
 ```
+### Calculate the given example
+Imagine you are given an example PyNumeral will help you work on it quickly.
+```python
+num.calc((24-12)/2)
+# value: 6
+```
 ### Difference
 Find the difference between any two numbers in pynumeral.
 ```python

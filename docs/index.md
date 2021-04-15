@@ -82,7 +82,7 @@ num.format(
   </tr>
       <tr>
     <td>100</td>
-    <td>"m"</td>
+    <td>"0m"</td>
     <td>100 000 000</td>
   </tr>
       <tr>

@@ -231,6 +231,13 @@ num.format(
   </tr>
 </table>
 
+#### Number types
+numbers accepted in mathematics. Syntax:
+```python
+num.number("pi")
+# 3.141592653589793
+```
+
 ### Unformatting
 Got a formatted string? Use the unformat function to make it useful again.
 ```python
@@ -280,13 +287,6 @@ num.unform(
     <td>0.2</td>
   </tr>
 </table>
-
-#### Number types
-numbers accepted in mathematics. Syntax:
-```python
-num.number("pi")
-# 3.141592653589793
-```
 
 ### Manipulate
 In PyNumeral, manipulation is generated mainly in variables.

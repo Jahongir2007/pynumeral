@@ -32,6 +32,7 @@ import pynumeral # importing pynumeral
 ```
 ### `format()` function
 you can format any number from the `format()` function to percentages, integers, rounded numbers, currencies, odd-evens, and more. Syntax:
+
 ```python
 num.format(
 

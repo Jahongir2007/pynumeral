@@ -1,4 +1,38 @@
-# PyNumeral v1.0
+# PyNumeral v1.0.3
+## News in PyNumeral v1.0.3
+<table>
+ <tr>
+  <td><b>PyNumeral v1.0.2</b></td>
+  <td><b>PyNumeral v1.0.3</b></td>
+ </tr>
+  <tr>
+  <td>
+   none
+   </td>
+    <td>
+   
+   ```python
+   num.real(
+    self = ">",
+    numf = 12,
+    nums = 11
+   )
+   ```
+   </td>
+   </tr>
+ <tr>
+     <td>
+    none
+   </td>
+    <td>
+   
+    ```python
+    num.number("pi")
+   ```
+   </td>
+ </tr>
+</table>
+
 ## What is PyNumeral? 
 Pynumeral it is library python. You can format numbers with this library and perform operations on them. PyNumeral syntax very easy.
 ## Support

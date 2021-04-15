@@ -1,7 +1,7 @@
 # PyNumeral v1.0.3
 PyNumeral python library for formatting and manipulating numbers
 ## Create a simple program in pynumeral
-Creating a simple program with the PyNumeral library is explained below with code and comments:
+Creating even-odd program with the PyNumeral library is explained below with code and comments:
 ```python
 import pynumeral # importing pynumeral
 

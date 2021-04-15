@@ -1,7 +1,7 @@
 '''
     PyNumeral
     Author: Jahongir Sobirov
-    Version : 1.0.0
+    Version : 1.0.3
     License: MIT
 '''
 
@@ -10,7 +10,7 @@ import math
 def format(num, form):
     if form == "0.0":
         print(float(num))
-    elif form == "||":
+    elif form == "|0|":
         print(abs(num))
     elif form == "0.!0":
         print(int(num))
@@ -23,7 +23,7 @@ def format(num, form):
     elif form == "0,0m":
         build = ",000000"
         print(num,build)
-    elif form == "m":
+    elif form == "0m":
         build = "000 000"
         print(num,build)
     elif form == "+0":
@@ -103,29 +103,21 @@ def format(num, form):
         elif num <= 1048577:
             val = num / 1073741824
             print(val,"GB")
-        elif num <= 1073741825:
+        elif num >= 1073741825:
             val = num / 1099511627776
             print(val,"TB")
-    elif form == "hsm":
-        if num < 60:
-            print(num, "seconds")
-        elif num > 60:
-            val = num / 60
-            print(val, "minutes")
-        if num < 3600:
-            val = num / 3600
-            print(val, "hours")
     elif form == "00:00:00":
-        seconds = "00"
-        minutes = "00"
-        hours = "00"
-        if num < 59:
-            seconds = num
-            print(hours,":",minutes,":",seconds)
-        elif num > 59:
-            minutes = num
-            val = minutes / 60
-            print(hours,":",val,":",seconds)
+        if num <= 59:
+            print("00",":",num)
+        elif num >= 59:
+            if num % 2 == 0:
+                print(int(num/60),":","00")
+            elif num >=60:
+                print(int(num/60),":",num%60,':','00')
+            else:
+                val = num / 60
+                sec = num % 60
+                print(math.ceil(val),":",sec)
     elif form == "0%":
         if num == 1:
             num = 100
@@ -134,18 +126,16 @@ def format(num, form):
             val = num * 100
             print(int(val),"%")
     elif form == "0a":
-        if num <= 1000000:
-            val = num / 1000
-            print(val,"k")
-        elif num <= 1000000000:
-            val = num / 1000000
-            print(num,"m")
-        elif num <= 1000000000000:
-            val = num / 1000000000 
-            print(val,"b")
-        elif num <= 1000000000000000:
-            val = num / 1000000000000
-            print(val,"t")
+        if num <= 999999:
+            print(num / 1000,"k")
+        elif num <= 999999999:
+            print(num / 1000000,"m")
+        elif num <= 999999999:
+            print(num / 1000000,"m")
+        elif num <= 999999999999:
+            print(num / 1000000000,"b")
+        elif num <= 999999999999999:
+            print(num / 1000000000000,"t")
     elif form == "0%2":
         if num % 2 == 0:
             print("even")
@@ -171,23 +161,21 @@ def value(get):
 def zeroform(code, num):
         print("number:",code)
 def makelang(lang,abb_k,abb_m,abb_b,abb_t,curr,num):
-    if num <= 1000000:
-        val = num / 1000
-        print(val,abb_k)
-    elif num <= 1000000000:
-        val = num / 1000000
-        print(num,abb_m)
-    elif num <= 1000000000000:
-        val = num / 1000000000 
-        print(val,abb_b)
-    elif num <= 1000000000000000:
-        val = num / 1000000000000
-        print(val,abb_t)
-    print(curr,num)
+        if num <= 999999:
+            print(num / 1000,"k")
+        elif num <= 999999999:
+            print(num / 1000000,"m")
+        elif num <= 999999999:
+            print(num / 1000000,"m")
+        elif num <= 999999999999:
+            print(num / 1000000000,"b")
+        elif num <= 999999999999999:
+            print(num / 1000000000000,"t")
+        print(num,curr)
 def unform(num,type):
     if type == "0.0":
         print(int(num))
-    elif type == "||":
+    elif type == "|0|":
         print(num)
     elif type == "0.!0":
         print(float(num))
@@ -203,4 +191,24 @@ def unform(num,type):
 def cordinate(num):
     prev = num - 1
     nt = num + 1
-    print(prev,num,nt) 
+    print(prev,num,nt)
+def real(self, numf, nums):
+        if self == "<":
+            print(numf < nums) 
+        elif self == ">":
+            print(numf > nums)
+        elif self == "=":
+            print(numf ==  nums)
+def calc(value):
+    print(value)
+def number(num):
+    if num == "pi":
+        print(math.pi)
+    elif num == "inf":
+        print(math.inf)
+    elif num == "e":
+        print(math.e)
+    elif num == "nan":
+        print(math.nan)
+    elif num == "tau":
+        print(math.tau)

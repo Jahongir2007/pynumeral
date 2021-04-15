@@ -1,5 +1,5 @@
 # PyNumeral v1.0.2
-## News in PyNumeral v1.0.1
+## News in PyNumeral v1.0.2
 <table>
  <tr>
   <td><b>PyNumeral v1.0.1</b></td>

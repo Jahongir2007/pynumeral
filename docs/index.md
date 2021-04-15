@@ -22,7 +22,7 @@ num.format( # use format function
 ## Docs
 ### Run this library
 1. Install .zip file in github
-2. Copy file: pynumeral-main/bin/pynumeral.py
+2. Copy file: pynumeral-1.0.3/bin/pynumeral.py
 3. Create new folder and paste pynumeral.py
 4. Create new (for example test.py) .py file in this folder (the folder must contain a pynumeral file)
 5. Write the code to your newly opened .py file and run it, following the PyNumeral syntax

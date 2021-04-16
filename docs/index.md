@@ -30,7 +30,11 @@ num.format( # use format function
 ### Importing PyNumeral
 In python file
 ```python
-import pynumeral # importing pynumeral 
+import pynumeral # importing pynumeral
+'''
+  we store the functions in the pynumeral document to the num variable.
+'''
+num = pynumeral # this in num variable
 ```
 ### `format()` function
 you can format any number from the `format()` function to percentages, integers, rounded numbers, currencies, odd-evens, and more. Syntax:
@@ -431,6 +435,16 @@ num.makelang(
     1.0 ming
     so'm 1000
     '''
+)
+```
+### Which number is bigger or which is smaller
+To determine this, you need to use the `real()` function.
+```python
+num.real(
+  self = "<",
+  numf = 12,
+  nums = 11
+  # value: False
 )
 ```
 ### `cordinate()` function

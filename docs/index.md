@@ -170,7 +170,7 @@ num.format(
   <tr>
     <td>100</td>
     <td>"$0.0"</td>
-    <td>100.0</td>
+    <td>$ 100.0</td>
   </tr>
     <tr>
     <td>100</td>
@@ -185,7 +185,7 @@ num.format(
         <tr>
     <td>100</td>
     <td>"$0m"</td>
-    <td>$ 200 m</td>
+    <td>$ 100 m</td>
   </tr>
 </table>
 
@@ -227,9 +227,15 @@ num.format(
     <td>"00:00:00"</td>
     <td>00:49</td>
   </tr>
+  <tr>
       <td>120</td>
     <td>"00:00:00"</td>
     <td>2:00</td>
+  </tr>
+    <tr>
+      <td>3601</td>
+    <td>"00:00:00"</td>
+    <td>1:1:00</td>
   </tr>
 </table>
 

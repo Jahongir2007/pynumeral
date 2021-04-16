@@ -243,39 +243,6 @@ num.format(
   </tr>
 </table>
 
-#### Number types
-numbers accepted in mathematics. Syntax:
-```python
-num.number("pi")
-# 3.141592653589793
-```
-<table>
-  <tr>
-    <td><b>Type</b></td>
-    <td><b>Value</b></td>
-  </tr>
-  <tr>
-    <td>"pi"</td>
-    <td>3.141592653589793</td>
-  </tr>
-  <tr>
-    <td>"inf"</td>
-    <td>inf</td>
-  </tr>
-    <tr>
-    <td>"e"</td>
-    <td>2.718281828459045</td>
-  </tr>
-      <tr>
-    <td>"nan"</td>
-    <td>nan</td>
-  </tr>
-        <tr>
-    <td>"tau"</td>
-    <td>6.283185307179586</td>
-  </tr>
-</table>
-
 ### Unformatting
 Got a formatted string? Use the unformat function to make it useful again.
 ```python
@@ -323,6 +290,39 @@ num.unform(
     <td>20</td>
     <td>"0%"</td>
     <td>0.2</td>
+  </tr>
+</table>
+
+### Number types
+numbers accepted in mathematics. Syntax:
+```python
+num.number("pi")
+# 3.141592653589793
+```
+<table>
+  <tr>
+    <td><b>Type</b></td>
+    <td><b>Value</b></td>
+  </tr>
+  <tr>
+    <td>"pi"</td>
+    <td>3.141592653589793</td>
+  </tr>
+  <tr>
+    <td>"inf"</td>
+    <td>inf</td>
+  </tr>
+    <tr>
+    <td>"e"</td>
+    <td>2.718281828459045</td>
+  </tr>
+      <tr>
+    <td>"nan"</td>
+    <td>nan</td>
+  </tr>
+        <tr>
+    <td>"tau"</td>
+    <td>6.283185307179586</td>
   </tr>
 </table>
 
@@ -437,7 +437,7 @@ num.makelang(
     '''
 )
 ```
-### Which number is bigger or which is smaller
+### The truth of numbers
 To determine this, you need to use the `real()` function.
 ```python
 num.real(

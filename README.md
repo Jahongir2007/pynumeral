@@ -32,6 +32,18 @@
     
    </td>
  </tr>
+  <tr>
+     <td>
+    none
+   </td>
+    <td>
+   
+   ```python
+   num.calc((24-12)/3)
+   ```
+    
+   </td>
+ </tr>
 </table>
 
 ## What is PyNumeral? 

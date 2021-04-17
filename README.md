@@ -50,6 +50,21 @@
     
    </td>
  </tr>
+   <tr>
+     <td>
+    none
+   </td>
+    <td>
+   
+   ```python
+   num.numlist(
+    start = 1,
+    end = 6
+   )
+   ```
+    
+   </td>
+ </tr>
 </table>
 
 ## What is PyNumeral? 

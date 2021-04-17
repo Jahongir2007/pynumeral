@@ -418,6 +418,22 @@ num.clone(
   '''
 )
 ```
+### Number list
+Use this method to display a list of numbers from any number to any number.
+```python
+num.numlist(
+  start = 1,
+  end = 6
+  '''
+  Output:
+  1
+  2
+  3
+  4
+  5
+  '''
+)
+```
 ### Value
 The `value()` function stores the value
 ```python

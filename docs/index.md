@@ -1,5 +1,5 @@
 ![17b1d54869bb415d93f90033f0031c15](https://user-images.githubusercontent.com/69193276/115025325-a8facd00-9eda-11eb-80ef-029c99f35d23.png)
-# PyNumeral v1.0.5
+# PyNumeral v1.1.0
 PyNumeral python library for formatting and manipulating numbers
 ## Create a simple program in pynumeral
 Creating even-odd program with the PyNumeral library is explained below with code and comments:
@@ -36,6 +36,13 @@ import pynumeral # importing pynumeral
   we store the functions in the pynumeral document to the num variable.
 '''
 num = pynumeral # this in num variable
+```
+### Create
+```python
+import pynumeral
+num = pynumeral
+num.numeral(12)
+# 12
 ```
 ### `format()` function
 you can format any number from the `format()` function to percentages, integers, rounded numbers, currencies, odd-evens, and more. Syntax:
@@ -121,6 +128,16 @@ num.format(
     <td>12.1479</td>
     <td>"0.00[0]"</td>
     <td>12.147</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>"0C"</td>
+    <td>12 C</td>
+  </tr>
+    <tr>
+    <td>24</td>
+    <td>"0C[0F]"</td>
+    <td>75.2 F</td>
   </tr>
       <tr>
     <td>51, 52</td>

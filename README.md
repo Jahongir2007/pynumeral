@@ -1,5 +1,57 @@
 ![17b1d54869bb415d93f90033f0031c15](https://user-images.githubusercontent.com/69193276/115025027-499cbd00-9eda-11eb-8d01-3876d03d87be.png)
-# PyNumeral 
+# PyNumeral v.1.1.0
+## News
+
+<table>
+ <tr>PyNumeral v1.0.5</tr>
+ <tr>PyNumeral v1.1.0</tr>
+ <tr>
+  <td>None</td>
+  <td>
+   
+    ```python
+    import pynumeral
+    methods = pynumeral
+    methods.numeral(12)
+    # 12
+    ```
+    
+   </td>
+    </tr>
+     <tr>
+  <td>None</td>
+  <td>
+   
+    ```python
+    import pynumeral
+    methods = pynumeral
+    methods.format(
+     num = 12,
+     form = "0C"
+    )
+    # 12 C
+    ```
+    
+   </td>
+    </tr>
+     <tr>
+  <td>None</td>
+  <td>
+   
+    ```python
+    import pynumeral
+    methods = pynumeral
+    methods.format(
+     num = 24,
+     form = "0C[0F]"
+    )
+    # 75.2 F
+    ```
+    
+   </td>
+    </tr>
+</table>
+
 ## What is PyNumeral? 
 Pynumeral it is library python. You can format numbers with this library and perform operations on them. PyNumeral syntax very easy.
 ## Support

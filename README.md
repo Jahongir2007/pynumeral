@@ -9,13 +9,15 @@
   <td>None</td>
   <td>
    
+   
     ```python
     import pynumeral
     methods = pynumeral
     methods.numeral(12)
     # 12
     ```
-    
+   
+   
    </td>
     </tr>
      <tr>

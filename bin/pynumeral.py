@@ -1,7 +1,7 @@
 '''
     Author: Jahongir Sobirov
     PyNumeral library
-    Version: 1.0.5
+    Version: 1.1.0
     License: MIT
 '''
 import math
@@ -152,6 +152,10 @@ def format(num, form):
             multiplier = 10 ** decimals
             return int(n * multiplier) / multiplier
         print(truncate(num, 3))
+    elif form == "0C":
+        print(num, "C")
+    elif form == "0C[0F]":
+        print((num*1.8)+32, "F")
     else:
         print("Error!")
 def add(num, set):
@@ -164,8 +168,6 @@ def mul(num, set):
     print(num * set)
 def dif(num, set):
     print(num - set)
-def val(value):
-    print(value)
 def clone(name, set):
     print("Name clone: ", name)
     print("Value clone: ", set)
@@ -229,3 +231,7 @@ def numlist(start,end):
     li = range(start, end)
     for n in li:
         print(n)
+def numeral(value):
+        print(value)
+def value(val):
+        print(val)

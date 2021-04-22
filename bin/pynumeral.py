@@ -1,7 +1,7 @@
 '''
     Author: Jahongir Sobirov
     PyNumeral library
-    Version: 1.1.0
+    Version: 1.1.3
     License: MIT
 '''
 import math
@@ -235,3 +235,5 @@ def numeral(value):
         print(value)
 def value(val):
         print(val)
+def opposite(value):
+    print(value-value-value)

@@ -1,6 +1,6 @@
 ![17b1d54869bb415d93f90033f0031c15](https://user-images.githubusercontent.com/69193276/115025179-76e96b00-9eda-11eb-9137-91cd34ad60d9.png)
-# PyNumeral v1.0.5
-## News in PyNumeral v1.0.5
+# PyNumeral v1.1.3
+## News in PyNumeral v1.1.3
 <table>
  <tr>
   <td><b>PyNumeral v1.1.0</b></td>
@@ -17,7 +17,6 @@
      # -45
      num.opposite(-45)
      # 45
-   )
    ```
    </td>
    </tr>

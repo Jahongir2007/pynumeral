@@ -1,4 +1,4 @@
-![Uploading db2a7348b09e424b92aa94cb33c38fd9.png…]()
+![db2a7348b09e424b92aa94cb33c38fd9](https://user-images.githubusercontent.com/69193276/115833303-531fab00-a42d-11eb-8eee-700b7c144a4b.png)
 
 # PyNumeral v1.1.7
 PyNumeral python library for formatting and manipulating numbers

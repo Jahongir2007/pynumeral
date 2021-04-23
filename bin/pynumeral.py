@@ -1,7 +1,7 @@
 '''
     Author: Jahongir Sobirov
     PyNumeral library
-    Version: 1.1.3
+    Version: 1.1.7
     License: MIT
 '''
 import math
@@ -156,6 +156,17 @@ def format(num, form):
         print(num, "C")
     elif form == "0C[0F]":
         print((num*1.8)+32, "F")
+    elif form == "0_m":
+        if num < 10:
+            print(num,"mm")
+        elif num >= 10:
+            if num >= 100:
+                if num >= 1000:
+                    print(num/1000,"km")
+                else:
+                    print(num/100,"m")
+            else:
+                print(num/10,"cm")
     else:
         print("Error!")
 def add(num, set):

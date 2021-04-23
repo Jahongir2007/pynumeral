@@ -1,4 +1,4 @@
-![17b1d54869bb415d93f90033f0031c15](https://user-images.githubusercontent.com/69193276/115025179-76e96b00-9eda-11eb-9137-91cd34ad60d9.png)
+![db2a7348b09e424b92aa94cb33c38fd9](https://user-images.githubusercontent.com/69193276/115833365-65014e00-a42d-11eb-8649-8ba98f83ef15.png)
 # PyNumeral v1.1.3
 ## News in PyNumeral v1.1.7
 <table>

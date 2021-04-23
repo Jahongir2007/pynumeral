@@ -161,10 +161,12 @@ def format(num, form):
             print(num,"mm")
         elif num >= 10:
             if num >= 100:
-                if num >= 1000:
-                    print(num/1000,"km")
+                if num <= 1000:
+                    print(num/1000,"m")
+                elif num >= 10000:
+                    print(num/10000,"km")
                 else:
-                    print(num/100,"m")
+                    print(num/100,"dm")
             else:
                 print(num/10,"cm")
     else:

@@ -1,5 +1,28 @@
-![17b1d54869bb415d93f90033f0031c15](https://user-images.githubusercontent.com/69193276/115025027-499cbd00-9eda-11eb-8d01-3876d03d87be.png)
-# PyNumeral 
+![17b1d54869bb415d93f90033f0031c15](https://user-images.githubusercontent.com/69193276/115025179-76e96b00-9eda-11eb-9137-91cd34ad60d9.png)
+# PyNumeral v1.1.3
+## News in PyNumeral v1.1.7
+<table>
+ <tr>
+  <td><b>PyNumeral v1.1.3</b></td>
+  <td><b>PyNumeral v1.1.7</b></td>
+ </tr>
+  <tr>
+  <td>
+   none
+   </td>
+    <td>
+   
+   ```python
+      pynumeral.form(
+       num = 12,
+       form = "0_m"
+      )
+      # 1.2 cm
+   ```
+   </td>
+   </tr>
+</table>
+
 ## What is PyNumeral? 
 Pynumeral it is library python. You can format numbers with this library and perform operations on them. PyNumeral syntax very easy.
 ## Support

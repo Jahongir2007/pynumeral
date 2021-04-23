@@ -1,5 +1,5 @@
 ![17b1d54869bb415d93f90033f0031c15](https://user-images.githubusercontent.com/69193276/115025325-a8facd00-9eda-11eb-80ef-029c99f35d23.png)
-# PyNumeral v1.1.3
+# PyNumeral v1.1.7
 PyNumeral python library for formatting and manipulating numbers
 ## Create a simple program in pynumeral
 Creating even-odd program with the PyNumeral library is explained below with code and comments:
@@ -163,6 +163,41 @@ num.format(
     <td>100</td>
     <td>"0%2"</td>
     <td>even</td>
+  </tr>
+</table>
+
+### Units of length
+
+<table>
+  <tr>
+    <td><b>Number</b></td>
+    <td><b>Type</b></td>
+    <td><b>Value</b></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>"0_m"</td>
+    <td>8 mm</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>"0_m"</td>
+    <td>2.5 cm</td>
+  </tr>
+    <tr>
+    <td>250</td>
+    <td>"0_m"</td>
+    <td>25 dm</td>
+  </tr>
+      <tr>
+    <td>2500</td>
+    <td>"0_m"</td>
+    <td>25 m</td>
+  </tr>
+        <tr>
+    <td>25000</td>
+    <td>"0_m"</td>
+    <td>25 km</td>
   </tr>
 </table>
 
